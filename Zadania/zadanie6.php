@@ -16,7 +16,6 @@ function odzera($n) {
     return $tablica;
 }
 
-// Deklaracja funkcji wypełniającej tablicę od 7 do n+6
 function od7($n) {
     $tablica = [];
     for ($i = 7; $i < $n + 7; $i++) {
@@ -25,7 +24,6 @@ function od7($n) {
     return $tablica;
 }
 
-// Deklaracja funkcji wypełniającej tablicę ciągiem 4, 8, 12, 16,...
 function tablicax4($n) {
     $tablica = [];
     for ($i = 1; $i <= $n; $i++) {
@@ -34,7 +32,6 @@ function tablicax4($n) {
     return $tablica;
 }
 
-// Deklaracja funkcji wypełniającej tablicę ciągiem 1, 2, 4, 8, 16,...
 function potega2($n) {
     $tablica = [];
     for ($i = 0; $i < $n; $i++) {
@@ -43,7 +40,6 @@ function potega2($n) {
     return $tablica;
 }
 
-// Deklaracja funkcji wypełniającej tablicę wartościami 2, 3, 4,...,n+1
 function od2($n) {
     $tablica = [];
     for ($i = 2; $i <= $n + 1; $i++) {
@@ -52,7 +48,6 @@ function od2($n) {
     return $tablica;
 }
 
-// Przykład użycia funkcji
 $n = 40;
 echo "a) Od 0 do n-1: " . implode(", ", odzera($n)) . "<br>";
 echo "b) Od 7 do n+6: " . implode(", ", od7($n)) . "<br>";
