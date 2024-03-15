@@ -13,18 +13,18 @@
 
         $tablica = [];
         for ($i = 0; $i < 10; $i++) {
-            return rand(1, 500);
+            $tablica[] = rng();
         }
             echo "Wylosowane liczby: ";
             foreach ($tablica as $liczba) {
-                echo $liczba . " ";
+                echo $liczba." ";
             }
             echo "<br>";
 
             echo "liczby parzyste i podzielne przez 3: ";
             foreach ($tablica as $liczba) {
                 if ($liczba % 2 == 0 && $liczba % 3 == 0) {
-                    echo $liczba . " ";
+                    echo $liczba." ";
                 }
             }
     ?>
